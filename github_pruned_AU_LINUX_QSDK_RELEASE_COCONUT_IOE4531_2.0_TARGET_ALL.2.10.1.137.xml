@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <remote fetch="ssh://git@github.com/philips-repo-eval/" name="github" />
+  <default remote="github" revision="release/coconut_ioe4531_2.0" />
+  <project name="bsb002-boot_u-boot-1.1.4" path="qsdk/qca/src/qca-legacy-uboot" revision="49cbffc198f01ad718d30c6621416ecd202cb2ec" upstream="release/coconut_ioe4531_2.0" />
+  <project name="bsb002-firmware_ath10k-firmware" path="qsdk/qca/src/ath10k-firmware" revision="b2f73513e97b765bf8a0136d4a748333f53383ba" upstream="release/coconut_ioe4531_2.0" />
+  <project name="bsb002-system_feeds_packages" path="qsdk/qca/feeds/oldpackages" revision="62f407240e168da89f7d939e543cd5918afefe63" upstream="release/coconut_ioe4531_2.0" />
+  <project name="bsb002-system_feeds_wlan-open" path="qsdk/qca/feeds/wlan-open" revision="bcf7491974e0ae8f67a22b97e41dc70ac446f786" upstream="release/coconut_ioe4531_2.0" />
+  <project name="bsb002-system_openwrt" path="qsdk" revision="fbfdef173de6a802758633f35349f7f44c45be12" upstream="release/coconut_ioe4531_2.0" />
+  <project name="bsb002-system_openwrt_feeds_qca-wifi-10.4.2" path="qsdk/qca/feeds/wlan_10_4_2" revision="4064e61f479069f78269f995b3df2dcde38ffe77" upstream="release/coconut_ioe4531_2.0" />
+  </manifest>
