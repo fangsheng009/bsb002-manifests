@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <remote fetch="ssh://git@github.com/philips-repo-eval/" name="github" />
+  <default remote="github" revision="release/coconut_ioe4531_2.0" />
+  <project name="bsb002-boot_u-boot-1.1.4" path="qsdk/qca/src/qca-legacy-uboot" revision="philips/develop" upstream="philips/develop" />
+  <project name="bsb002-firmware_ath10k-firmware" path="qsdk/qca/src/ath10k-firmware" revision="philips/develop" upstream="philips/develop" />
+  <project name="bsb002-system_feeds_packages" path="qsdk/qca/feeds/oldpackages" revision="philips/develop" upstream="philips/develop" />
+  <project name="bsb002-system_feeds_wlan-open" path="qsdk/qca/feeds/wlan-open" revision="philips/develop" upstream="philips/develop" />
+  <project name="bsb002-system_openwrt" path="qsdk" revision="philips/develop" upstream="philips/develop" />
+  <project name="bsb002-system_openwrt_feeds_qca-wifi-10.4.2" path="qsdk/qca/feeds/wlan_10_4_2" revision="philips/develop" upstream="philips/develop" />
+  </manifest>
