@@ -13,7 +13,7 @@
   <project name="bsb002-system_openwrt_feeds_qca-wifi-10.4.2" path="qsdk/qca/feeds/wlan_10_4_2" revision="philips/develop" upstream="philips/develop" />
 
   <!-- BSB002 platform projects -->
-  <project name="bsb002-build" path="build" revision="philips/develop" upstream="philips/develop" />
+  <project name="bsb002-platform" path="platform" revision="philips/develop" upstream="philips/develop" />
 
   <!-- product projects -->
 
