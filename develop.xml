@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@github.com/philips-repo-eval/" name="github"/>
+  
+  <default remote="github" revision="master"/>
+  
+  <project name="bsb002-boot_u-boot-1.1.4" path="qsdk/qca/src/qca-legacy-uboot" revision="49cbffc198f01ad718d30c6621416ecd202cb2ec" upstream="philips/develop"/>
+  <project name="bsb002-firmware_ath10k-firmware" path="qsdk/qca/src/ath10k-firmware" revision="b2f73513e97b765bf8a0136d4a748333f53383ba" upstream="philips/develop"/>
+  <project name="bsb002-platform" path="platform" revision="ffc7c1e487e6c6391d7b713bfe2040cf546924ef" upstream="philips/develop"/>
+  <project name="bsb002-system_feeds_packages" path="qsdk/qca/feeds/oldpackages" revision="62f407240e168da89f7d939e543cd5918afefe63" upstream="philips/develop"/>
+  <project name="bsb002-system_feeds_wlan-open" path="qsdk/qca/feeds/wlan-open" revision="bcf7491974e0ae8f67a22b97e41dc70ac446f786" upstream="philips/develop"/>
+  <project name="bsb002-system_openwrt" path="qsdk" revision="8783ed97a171d824638e1b7c8c0174bdec4ce141" upstream="philips/develop"/>
+  <project name="bsb002-system_openwrt_feeds_qca-wifi-10.4.2" path="qsdk/qca/feeds/wlan_10_4_2" revision="4064e61f479069f78269f995b3df2dcde38ffe77" upstream="philips/develop"/>
+</manifest>
